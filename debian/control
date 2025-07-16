@@ -1,0 +1,12 @@
+Source: ros-humble-turtlebot3-home-service-challenge-manipulator
+Section: misc
+Priority: optional
+Maintainer: pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-moveit-ros-planning-interface, ros-humble-rclcpp, ros-humble-std-msgs, ros-humble-ros-workspace
+Homepage: http://wiki.ros.org/turtlebot3
+Standards-Version: 3.9.2
+
+Package: ros-humble-turtlebot3-home-service-challenge-manipulator
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-moveit-ros-planning-interface, ros-humble-rclcpp, ros-humble-std-msgs, ros-humble-turtlebot3-home-service-challenge-tools, ros-humble-ros-workspace
+Description: Manipulator controller package for turtlebot3_home_service_challenge

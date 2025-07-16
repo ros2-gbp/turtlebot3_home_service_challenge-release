@@ -1,0 +1,12 @@
+Source: ros-jazzy-turtlebot3-home-service-challenge-aruco
+Section: misc
+Priority: optional
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: http://wiki.ros.org/turtlebot3
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-turtlebot3-home-service-challenge-aruco
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, python3-numpy, python3-opencv, python3-scipy, ros-jazzy-geometry-msgs, ros-jazzy-nav-msgs, ros-jazzy-rclpy, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs, ros-jazzy-tf2-ros, ros-jazzy-ros-workspace
+Description: Using aruco package for turtlebot3_home_service_challenge

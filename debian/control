@@ -1,0 +1,12 @@
+Source: ros-jazzy-turtlebot3-home-service-challenge
+Section: misc
+Priority: optional
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-ros-workspace
+Homepage: http://turtlebot3.robotis.com
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-turtlebot3-home-service-challenge
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-turtlebot3-home-service-challenge-aruco, ros-jazzy-turtlebot3-home-service-challenge-core, ros-jazzy-turtlebot3-home-service-challenge-manipulator, ros-jazzy-turtlebot3-home-service-challenge-tools, ros-jazzy-ros-workspace
+Description: ROS packages for the Turtlebot3 Home Service Challenge (meta package)

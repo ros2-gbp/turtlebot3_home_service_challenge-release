@@ -1,0 +1,12 @@
+Source: ros-jazzy-turtlebot3-home-service-challenge-manipulator
+Section: misc
+Priority: optional
+Maintainer: pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-moveit-ros-planning-interface, ros-jazzy-rclcpp, ros-jazzy-std-msgs, ros-jazzy-ros-workspace
+Homepage: http://wiki.ros.org/turtlebot3
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-turtlebot3-home-service-challenge-manipulator
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-moveit-ros-planning-interface, ros-jazzy-rclcpp, ros-jazzy-std-msgs, ros-jazzy-turtlebot3-home-service-challenge-tools, ros-jazzy-ros-workspace
+Description: Manipulator controller package for turtlebot3_home_service_challenge

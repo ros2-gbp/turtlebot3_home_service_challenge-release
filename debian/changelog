@@ -1,0 +1,40 @@
+ros-humble-turtlebot3-home-service-challenge-core (1.0.4-1jammy) jammy; urgency=high
+
+  * None
+
+ -- Pyo <pyo@robotis.com>  Tue, 15 Jul 2025 15:00:00 -0000
+
+ros-humble-turtlebot3-home-service-challenge-core (1.0.3-1jammy) jammy; urgency=high
+
+  * None
+
+ -- Pyo <pyo@robotis.com>  Sun, 01 Jun 2025 15:00:00 -0000
+
+ros-humble-turtlebot3-home-service-challenge-core (1.0.2-1jammy) jammy; urgency=high
+
+  * Support for actual robot
+  * Updated [actual / simulation] selection with execution arguments.
+  * Updated ArUco marker size statement selection with execution arguments.
+  * Contributors: ChanHyeong Lee
+
+ -- Pyo <pyo@robotis.com>  Thu, 03 Apr 2025 15:00:00 -0000
+
+ros-humble-turtlebot3-home-service-challenge-core (1.0.1-1jammy) jammy; urgency=high
+
+  * Support for ROS 2 Humble version
+  * Renewal of package structure and functionality
+  * New update for mission algorithm
+  * Contributors: ChanHyeong Lee
+
+ -- Pyo <pyo@robotis.com>  Tue, 18 Mar 2025 15:00:00 -0000
+
+ros-humble-turtlebot3-home-service-challenge-core (1.0.0-1jammy) jammy; urgency=high
+
+  * Freeze Kinetic
+  * remove start tf2 frame '/' at navigation param file.
+  * fix gazebo_controller pid_gains load issue
+  * Contributors: Kayman, Ashe Kim, minwoominwoominwoo7, Edison-g
+
+ -- Pyo <pyo@robotis.com>  Wed, 21 Jul 2021 15:00:00 -0000
+
+

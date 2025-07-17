@@ -1,0 +1,12 @@
+Source: ros-humble-turtlebot3-home-service-challenge-aruco
+Section: misc
+Priority: optional
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: http://wiki.ros.org/turtlebot3
+Standards-Version: 3.9.2
+
+Package: ros-humble-turtlebot3-home-service-challenge-aruco
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, python3-numpy, python3-opencv, python3-scipy, ros-humble-geometry-msgs, ros-humble-nav-msgs, ros-humble-rclpy, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-tf2-ros, ros-humble-ros-workspace
+Description: Using aruco package for turtlebot3_home_service_challenge
